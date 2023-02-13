@@ -7,7 +7,6 @@ import { BarrasDobleComponent } from './pages/barras-doble/barras-doble.componen
 import { DonaComponent } from './pages/dona/dona.component';
 import { DonaHttpComponent } from './pages/dona-http/dona-http.component';
 import { GraficaBarraComponent } from './components/grafica-barra/grafica-barra.component';
-import { GraficasComponent } from './services/graficas/graficas.component';
 import { NgChartsModule } from 'ng2-charts';
 
 
@@ -18,7 +17,6 @@ import { NgChartsModule } from 'ng2-charts';
     DonaComponent,
     DonaHttpComponent,
     GraficaBarraComponent,
-    GraficasComponent,
   ],
   imports: [
     CommonModule,
